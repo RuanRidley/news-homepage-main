@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@400;700&display=swap');
+:root{
+    --off--withe: hsl(36, 100%, 99%);
+    --Grayish--blue: hsl(233, 8%, 79%);
+    --Dark--grayish--blue: hsl(236, 13%, 42%);
+    --Very--dark--blue: hsl(240, 100%, 5%);
+    --Soft--orange: hsl(35, 77%, 62%);
+    --Soft--red: hsl(5, 85%, 63%);
+    --font-padrão: 'Inter', sem serifa;
+}
+/*Descktop*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--font-padrão);
+}
+/*Estilizando o cabeçalho*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90rem;
+    padding: 3.6rem;
+}
+.link_nav{
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}
+/*seção*/
+.seleção{
+    display: flex;
+}
+/*Estilizando a seção 1*/
+.parte1{
+    display: flex;
+    flex-direction: column;
+    columns: center;
+}
+#img_parte1{
+    width: 950px;
+    padding-left: 3.6rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+
+}
+.sub_Part1{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    font-family: var(--font-padrão);
+    font-size: 3.8rem;
+    font-weight: bold;
+    padding-left: 3.6rem;
+}
+#sub_Parti1_btn{
+    padding-top: 1rem;
+    
+}
+#texto_botão{
+    font-size: 1.4rem;
+    padding-left: 3rem;
+}
+#btn{
+    width: 16rem;
+    height: 3.4rem;
+    font-size: 1.2rem;
+    font-family: var(--font-padrão);
+    background-color: var(--Soft--red);
+    color: var(--off--withe);
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 4.8rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+/*Estilizando parte 2*/
+.parte2{
+    background-color: var(--Very--dark--blue);
+    width: 490px;
+    color: var(--off--withe);
+}
+#Titulo{
+    font-size: 2.6rem;
+    font-weight: 800;
+    color: var(--Soft--orange);
+    padding: 2.5rem 0rem 2.5rem 2rem;
+}
+.titulo_parte2{
+    font-size: 1.8rem;
+    padding: 0rem 0rem 0.8rem 2rem;
+}
+.texto_parte2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0.4rem 0rem 0.8rem 2rem;
+    border-top-width: 2px;
+}
+hr{
+    margin: 2rem 0rem 2rem 0rem;
+    border: none;
+}
+/*estilizando o footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    padding-left: 3.6rem;
+    padding-right: 12.6rem;
+    padding-bottom: 1rem;
+}
+.footer_pc{
+    display: flex;
+    padding-left: 1rem;
+}
+.img_footer{
+    width: 12rem;
+    height: 15rem;
+}
+.texto_footer{
+    padding-right: 1rem;
+}
+h2{
+    font-size: 2rem;
+    font-family: var(--font-padrão);
+    color: var(--Grayish--blue);
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+.titulo_footer{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: var(--font-padrão);
+    color: var(--Very--dark--blue);
+    margin-right: 2rem;
+}
+.texto_footer{
+    font-family: var(--font-padrão);
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--Grayish--blue);
+    margin-right: 1rem;
+}
+.footer_laptop{
+    display: flex;
+    padding-left: 1rem;
+}
+.footer_gamer{
+    display: flex;
+    padding-left: 1rem;
+}
+/*Media quare*/
+@media ( max-width: 450px) {
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 24rem;
+        padding: 1.6rem;
+    }
+}
